@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "nmbg",
+  "version": "${version}",
+  "name": "NoMoreButtonGlitches",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/mrlulu51/NoMoreButtonGlitches"
+  },
+  "license": "MIT",
+  "icon": "assets/nomorebuttonglitches/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "fr.mrlulu51.nmbg.NoMoreButtonGlitches"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
